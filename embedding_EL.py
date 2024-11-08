@@ -13,7 +13,7 @@ def get_embedding(text, model="text-embedding-3-small"):
     return response
 
 def extract_entity(query):
-    return "강남에 있는 논현동"  # 자연어 쿼리에서 엔티티 추출(임시 예시)
+    return 
 
 def find_best_match(query):
     entity = extract_entity(query)
@@ -50,7 +50,6 @@ def get_embedding(text, model="text-embedding-ada-002"):
     return response['data'][0]['embedding']
 
 def extract_entity(query):
-    # 실제 구현에서는 더 정교한 엔티티 추출 로직이 필요합니다.
     return "강남에 있는 논현동"
 
 def find_best_match(query):
